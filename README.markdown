@@ -1,4 +1,9 @@
-jQuery .scrollintoview() plugin <sup>(with :scrollable selector filter)</sup>
+Note: I intend to use this fork to extend the featureset of this plugin.
+
+<ul>
+<li>Support the prioritized scrolling display of sub-items inside a primary item: We may prefer to include as much of the top of a containing element while prioritizing the inner element, so e.g. focusing such a sub-element would potentially scroll it down further than with a naive call on this sub-element. Needless to say this is an absurdly specific UX related requirement
+
+jQuery .scrollintoview() plugin (with :scrollable selector filter)
 ==
 This plugin makes it easy to scroll any element on your page into view. It scrolls in a user friendly way using animation (speed can be configured) so users never loose track where they moved within the current page. Default browser functionality simply jumps to some element which may confuse users greatly. This kind of behaviour is considered bad user experience, since pages look different above and below the fold. This means that users may as well think they were redirected to a different site (since it looks different) or at least page within the same site.
 
